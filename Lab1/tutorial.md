@@ -26,8 +26,8 @@
 
 ![image-20211014203922030](./tutorial.assets/image-20211014203922030.png)
 
-$\quad$[a] [b]
-$\quad\quad$ [c]
+[a]$\;$[b]
+$\quad\;$[c]
 
 ***b*** 图的横轴是灰度, 纵轴是百分比. 这个曲线叫做 累积分布函数 (***CDF***), 意思是灰度不超过某个值的像素点在整张图象中的占比.
 
@@ -42,12 +42,12 @@ $\quad\quad$ [c]
 #### 必做任务
 
 1. 实现 Histogram Equalization 算法, 应用并展示你的结果.
-2. 作出直方图说明 Histogram Equalization 的原理, 由此分析算法成功/失败的原因.
-3. 写一个报告, 展现你完成这个作业的方法以及你对这个问题的思考. 此外，你可以自己寻找一些图片用于分析算法的效果. 
+2. 作出直方图说明 Histogram Equalization 的原理, 由此分析算法的效果.
+3. 写一个报告, 展现你完成这个作业的方法以及你对这个问题的思考. 此外，你应该自己寻找一些图片(脚本会将彩色图片处理成灰度图片)用于分析算法的效果. 
 4. bonus 选做任务.
 
 #### 选做任务
-本次大作业有两个bonus可选，实现其中一个即可获得额外的分数，实现两个或更多仅会取其中较高的一项计分.
+本次大作业有两个bonus可选.
 
 1. 实现Histogram Matching 算法 (提示：求Histogram Equalization的逆变换).
 2. 实现图像边缘锐化（提示：可考虑卷积或者是对图像求空间上的导数）.
@@ -56,24 +56,24 @@ $\quad\quad$ [c]
 ### Part4: 文件结构
 
 你需要修改的代码有:
-- transform.hpp 请在里面实现你的图像增强算法
-- histogram.hpp 请在里面进行数据可视化, 画出一张图像的灰度直方图
+- `transform.hpp` 请在里面实现你的图像增强算法
+- `histogram.hpp` 请在里面进行数据可视化, 画出一张图像的灰度直方图
 
 我们提供了以下的工具代码来帮助你顺利地进行本次实验：
-- encode.py    Python脚本, 编码一张.png图像
-- decode.py    Python脚本, 将中间结果保存为.png图像
-- histo_eq.py   Python脚本, 调包实现equalizeHist算法，可以用于检测算法的正确性
-- main.cpp      main函数
+- `encode.py`    Python脚本, 编码一张.png图像
+- `decode.py`    Python脚本, 将中间结果保存为.png图像
+- `histo_eq.py`   Python脚本, 调包实现equalizeHist算法，可以用于检测算法的正确性
+- `main.cpp`      main函数
 
 以下是在运行过程中产生的中间文件：
-- in.txt    存储中间结果, 请勿修改
-- out.txt  存储中间结果, 请勿修改
+- `in.txt`    存储中间结果, 请勿修改
+- `out.txt`  存储中间结果, 请勿修改
 
 以下是程序产生的输出文件：
-- histo0.txt    均衡化前的直方图
-- histo1.txt    均衡化后的直方图
-- save.png     处理后的图像
-- ans.png   使用调包实现的equalizeHist算法处理后的图像
+- `histo0.txt`    均衡化前的直方图
+- `histo1.txt`    均衡化后的直方图
+- `save.png`     处理后的图像
+- `ans.png`   使用调包实现的equalizeHist算法处理后的图像
 
 
 #### transform.hpp
