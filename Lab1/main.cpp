@@ -56,8 +56,10 @@ int main()
 
     fclose(fout);
 
+    // TODO you can specify file path to histogram
     histogram(image, h, w, "histo0.txt");
     histogram(_image, h, w, "histo1.txt");
+    // TODO end
 
     return 0;
 }
