@@ -133,7 +133,7 @@ python3 ./encode.py --file_path ./pic/2_in.png
 
 编译完成后可通过下列命令直接获得经过处理后的图像.
 
-`python3 encode.py --file_path {你的图片路径(默认是./pic/1_in.png)} && ./main < in.txt && python3 decode.py --file_path {你保存的图片路径(默认是out_png)}`
+`python3 encode.py --file_path {你的图片路径(默认是./pic/1_in.png)} && ./main < in.txt && python3 decode.py --file_path {你保存的图片路径(默认是out.png)}`
 
 这样你可以得到变换后的图像文件, 以及被**重写** (写覆盖) 的直方图文件.
 
