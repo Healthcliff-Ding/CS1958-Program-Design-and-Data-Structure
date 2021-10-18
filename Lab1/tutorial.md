@@ -72,7 +72,7 @@ $\quad\;$[c]
 以下是程序产生的输出文件：
 - `histo0.txt`    均衡化前的直方图
 - `histo1.txt`    均衡化后的直方图
-- `save.png`     处理后的图像
+- `out.png`     处理后的图像
 - `ans.png`   使用调包实现的equalizeHist算法处理后的图像
 
 
