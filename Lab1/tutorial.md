@@ -16,7 +16,7 @@
 
 因此我们需要使用一些算法进行图像增强 (*Image enhancement*) , 这样可以帮助我们获得更好的视觉效果.
 
-在`pic`文件夹中, 我给你准备了四张图片, `1_in.png`到`4_in.png`, 并且很贴心地给你写好了Python脚本`histo_eq.py`, 来向你展示经过图像增强后图片的视觉效果(`1_out.png` 到 `4_out.png`).
+在`pic`文件夹中, 助教给你准备了四张图片, `1_in.png`到`4_in.png`, 并且很贴心地给你写好了Python脚本`histo_eq.py`, 来向你展示经过图像增强后图片的视觉效果(`1_out.png` 到 `4_out.png`).
 
 ### Part2: Algorithm
 
