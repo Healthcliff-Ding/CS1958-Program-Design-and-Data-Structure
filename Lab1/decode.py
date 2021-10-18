@@ -3,8 +3,8 @@ import cv2
 import numpy as np
 import argparse
 
-parser = argparse.ArgumentParser(description='picture encoder')
-parser.add_argument('--file_path', default='pic/1_in.png', type=str,
+parser = argparse.ArgumentParser(description='picture decoder')
+parser.add_argument('--file_path', default='out.png', type=str,
                      help='path to the output file')
 
 args = parser.parse_args()
