@@ -1,8 +1,13 @@
 import cv2
 import numpy as np
+import argparse
 
-# TODO: change input image name as you want
-filename = "1_in.png"
+parser = argparse.ArgumentParser(description='picture encoder')
+parser.add_argument('--file_path', default='pic/1_in.png', type=str,
+                     help='path to the input file')
+
+args = parser.parse_args()
+filename = args.file_path
 
 image = cv2.imread(filename, cv2.IMREAD_GRAYSCALE)[:,:]
 
