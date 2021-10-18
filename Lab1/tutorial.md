@@ -24,10 +24,10 @@
 
 算法的原理我会在习题课上进行讲解, 并且向你提供一些资料.
 
-![image-20211014203922030](\tutorial.assets\image-20211014203922030.png)
+![image-20211014203922030](./tutorial.assets/image-20211014203922030.png)
 
-\[a][b]
-$\quad$[c]
+$\quad$[a] [b]
+$\quad\quad$ [c]
 
 ***b*** 图的横轴是灰度, 纵轴是百分比. 这个曲线叫做 累积分布函数 (***CDF***), 意思是灰度不超过某个值的像素点在整张图象中的占比.
 
@@ -96,14 +96,15 @@ $\quad$[c]
      31 |          2 | ==
      63 |          6 | ======
      95 |          2 | ==
-     	.			.
-     	.			.
-     	.			.
-    255 |		  4 | ====
+     	.           .
+     	.           .
+     	.           .
+    255 |          4 | ====
 ```
 
 你可以尽情发挥, 怎么好看怎么来~
-
+你甚至可以使用其他语言或工具，如Python的`matplotlib`,MATLAB脚本或者R语言.
+但是必须要让你的实现能像一个可执行文件或脚本运行起来(不难理解, Ctrl+c复制进Excel里面画的图肯定是没分的).
 
 ### Part5: How to start?
 本次大作业请全程在**WSL或MacOS**环境下进行.
@@ -128,9 +129,11 @@ python3 ./encode.py --file_path ./pic/2_in.png
 
 当你想运行代码的时候, 请输入`g++ -O2 -o main main.cpp` 进行编译.
 
+注意, 你可以指定main.cpp中保存直方图的文件
+
 编译完成后可通过下列命令直接获得经过处理后的图像.
 
-`python3 encode.py --file_path {你的图片路径} && ./main < in.txt && python3 decode.py`
+`python3 encode.py --file_path {你的图片路径} && ./main < in.txt && python3 decode.py --file_path {你保存的图片路径}`
 
 这样你可以得到变换后的图像文件, 以及被**重写** (写覆盖) 的直方图文件.
 
