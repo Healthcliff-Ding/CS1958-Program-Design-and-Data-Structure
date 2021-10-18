@@ -2,7 +2,7 @@ import numpy as np
 import cv2
 import argparse
 
-parser = argparse.ArgumentParser(description='picture encoder')
+parser = argparse.ArgumentParser(description='equalization')
 parser.add_argument('--file_path', default='pic/1_in.png', type=str,
                      help='path to the input file')
 
