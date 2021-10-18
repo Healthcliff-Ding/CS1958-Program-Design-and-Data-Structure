@@ -141,4 +141,4 @@ python3 ./encode.py --file_path ./pic/2_in.png
 
 [2] *Digital Image Process* by Rafael C.Gonzalez, 4th edition
 
-[3] 讲解PPT
+[3] 课上讲解的Slides
