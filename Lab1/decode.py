@@ -1,9 +1,14 @@
 import math
 import cv2
 import numpy as np
+import argparse
 
-# TODO: change output image name as you want
-filename = "save.png"
+parser = argparse.ArgumentParser(description='picture encoder')
+parser.add_argument('--file_path', default='pic/1_in.png', type=str,
+                     help='path to the output file')
+
+args = parser.parse_args()
+filename = args.file_path
 
 with open('out.txt', 'r') as f:
     a = f.read().split('\n')
