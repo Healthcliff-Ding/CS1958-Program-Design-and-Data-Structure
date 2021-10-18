@@ -110,7 +110,7 @@ $\quad\;[c]$
 本次大作业请全程在**WSL或MacOS**环境下进行.
 
 #### 准备工作
-使用 `sudo apt install python-pip` 安装包管理器`pip`
+使用 `sudo apt install python3-pip` 安装包管理器`pip`
 
 使用 `pip install numpy opencv-python` 安装科学计算包`numpy`和计算机视觉包`opencv`
 
