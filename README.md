@@ -1,5 +1,5 @@
 # CS1958-Program-Design-and-Data-Structure I (2021 Fall)
-Course material release page of CS1958 for John Class, STJU.
+Course material release page of CS1958 for John Class, SJTU.
 
 ### Lab1: Histogram Equalization
 Lab1 has been released. For more details, you can refer to `Lab1/tutorial.md` .
