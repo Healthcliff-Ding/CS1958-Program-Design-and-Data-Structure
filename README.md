@@ -1,4 +1,4 @@
-# CS958-Program-Design-and-Data-Structure I (2021 Fall)
+# CS1958-Program-Design-and-Data-Structure I (2021 Fall)
 Course material release page of CS1958 for John Class, STJU.
 
 ### Lab1: Histogram Equalization
