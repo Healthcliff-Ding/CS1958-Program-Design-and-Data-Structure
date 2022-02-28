@@ -16,6 +16,6 @@ The API is similar to the vector implemented last semester. <br>
 评分模式与规则和上学期的Vector相同.
 
 #### Submission
-- DDL: 23:59:59 (GMT +08:00), May 27th 2022
+- DDL: 23:59:59 (GMT +08:00), March 27th 2022 (第六周周日)
 - Code review is required.
 
