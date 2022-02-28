@@ -9,6 +9,8 @@ Please implement a double-ended-queue, supporting *fast* insertion, deletion, ra
 
 The API is similar to the vector implemented last semester. <br>
 
+Please submit your code at [OJ_deque](https://acm.sjtu.edu.cn/OnlineJudge/problem?problem_id=1097), and this site contains more information.
+
 #### 具体要求
 
 *fast* 指 deque 要求支持以不超过 `O(sqrt(n))` 的时间完成任意位置的插入和删除，但随机访问的复杂度要求降低为 `O(sqrt(n))`.
