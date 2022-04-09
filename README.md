@@ -21,3 +21,21 @@ Please submit your code at [OJ_deque](https://acm.sjtu.edu.cn/OnlineJudge/proble
 - DDL: 23:59:59 (GMT +08:00), March 27th 2022 (第六周周日)
 - Code review is required.
 
+###Lab2: Map
+
+请实现一个 map 类, 支持 *快速* 的插入, 查询, 修改, 删除.
+
+需要实现接口包括
+
+- 构造函数, 析构函数
+- 重载赋值运算符
+- `at`, 下标访问
+- `insert` `erase`
+- `fine`
+- `iterator` `const_iterator`
+
+接口的细节请阅读代码框架中的注释. 
+
+**注意**：多种平衡树都可以通过全部测试, 但是非平衡树无法通过全部测试.
+
+请在[OJ_map](https://acm.sjtu.edu.cn/OnlineJudge/problem?problem_id=1139)提交你的代码
