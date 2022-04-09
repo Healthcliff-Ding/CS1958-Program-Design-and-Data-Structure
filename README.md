@@ -21,7 +21,7 @@ Please submit your code at [OJ_deque](https://acm.sjtu.edu.cn/OnlineJudge/proble
 - DDL: 23:59:59 (GMT +08:00), March 27th 2022 (第六周周日)
 - Code review is required.
 
-###Lab2: Map
+### Lab2: Map
 
 请实现一个 map 类, 支持 *快速* 的插入, 查询, 修改, 删除.
 
